@@ -1,13 +1,53 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding-top: 5%
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.addUserForm {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 5rem;
+  padding-left: -10px;
+  
+}
+
+.rectangle {
+  width: 120%;
+  height: 600px;
+  background-color: #2a3743;
+  margin-right: 10%;
+  margin-left: -5%;
+  padding-left: 10%;
+  padding-right: 10%
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.taskButtons {
+  display: flex;
+  gap: 5px;
+}
+
+.dialog {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.done {
+  text-decoration: line-through;
 }
